@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import PageContainer from "./container/PageContainer";
+import Header from "./components/Header";
 
 function App() {
-  
-
   return (
-    
-      <div>
-        E Ticaret Sitesi
-      </div>
-      
-  )
+    <div>
+      <PageContainer>
+        <Header></Header>
+      </PageContainer>
+    </div>
+  );
 }
 
-export default App
+export default App;
