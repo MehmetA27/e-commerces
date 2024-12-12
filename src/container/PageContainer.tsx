@@ -4,7 +4,7 @@ import Container from "@mui/material/Container";
 function PageContainer({ children }) {
   return (
     <div>
-      <Container>{children}</Container>
+      <Container maxWidth="lg">{children}</Container>
     </div>
   );
 }
